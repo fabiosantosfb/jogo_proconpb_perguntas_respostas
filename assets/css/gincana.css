@@ -1,0 +1,52 @@
+body {
+  padding-top: 90px;
+  background-color: #000;
+}
+
+.principal {
+  padding: 0px 15px;
+  text-align: justify;
+}
+.ativar {
+  background-color: #00FF00;
+  border-color: #006400;
+  color: #fff;
+}
+.well{
+	background-color: #b29d85;
+  margin-top: 20px;
+}
+
+.button {
+   border-top: 1px solid #021836;
+   background: #121757;
+   background: -webkit-gradient(linear, left top, left bottom, from(#0345fc), to(#121757));
+   background: -webkit-linear-gradient(top, #0345fc, #121757);
+   background: -moz-linear-gradient(top, #0345fc, #121757);
+   background: -ms-linear-gradient(top, #0345fc, #121757);
+   background: -o-linear-gradient(top, #0345fc, #121757);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 20px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+
+.button:hover {
+   border-top-color: #00134a;
+   background: #00134a;
+   color: #fcfcfc;
+   }
+
+.button:active {
+   border-top-color: #fafafa;
+   background: #fafafa;
+   }

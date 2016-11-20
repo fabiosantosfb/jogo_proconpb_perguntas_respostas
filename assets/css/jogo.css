@@ -1,0 +1,114 @@
+.flip-container {
+    perspective: 1000px;
+    max-width: 700px;
+}
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+.flip-container,
+.front,
+.back {
+    width: 180px;
+    height: 130px;
+    margin-top: 10px;
+}
+img {
+    max-width: 180px;
+    max-height: 130px;
+}
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+}
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+    /*background-image: url('assets/img/err.png') no-repeat ;*/
+}
+.back {
+    transform: rotateY(180deg);
+}
+.flex-container {
+     display:flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: stretch;
+     justify-content: space-around;
+     max-width: 800px;
+     position:relative;
+ float: left;
+ }
+ #lateral {
+	position: relative;
+  width: 300px;
+	/*width: 1100px;*/
+	float:right;
+  padding-top: 10px;
+}
+.laterala {
+ margin-top: 10px;
+ width: 300px;
+ position: relative;
+ height: 50px;
+ padding: 10px 10px;
+ background-color: blue;
+ border: solid 5px green;
+ border-radius: 10px;
+}
+.lateralb {
+ margin-top: 10px;
+ width: 150px;
+ position: relative;
+ height: 50px;
+ padding: 10px 10px;
+ background-color: red;
+ border: solid 5px blue;
+ border-radius: 10px;
+ color: #fff;
+}
+.pontos {
+  margin-top: 10px;
+   padding: 10px 10px;
+    position: relative;
+}
+.laterala:hover {
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+}
+.laterala:visited {
+  background-color: red;
+  opacity: 1;
+  filter: alpha(opacity=10);
+}
+.flex-item {
+  width: 180px;
+  height: 130px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+}
+.who
+{
+background: url('../img/who.png')  no-repeat;
+background-size: 280px 180px;
+    width: 180px;
+    height: 130px;
+    border: none;
+}
+.err
+{
+background: url('../img/err.png')  no-repeat;
+background-size: auto;
+    width: 180px;
+    height: 130px;
+    border: none;
+}
