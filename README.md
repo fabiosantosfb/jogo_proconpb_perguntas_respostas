@@ -1,4 +1,7 @@
 #Jogo Simples de Pergunta e Resposta
+
+Necesário servidor web, servidor banco de dados Mysql e PHP instalado!
+
 Tela Home
 ![Alt text](/sprint/home.png?raw=true "Home")
 Tela Placar
