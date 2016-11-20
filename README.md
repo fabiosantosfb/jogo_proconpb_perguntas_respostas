@@ -10,6 +10,6 @@ Tela Resposta Correta
 Tela Resposta Errada
 ![Alt text](/sprint/resposta_incorreta.png?raw=true "Errada")
 Tela Adicionar Perguntas
-![Alt text](/sprint/adicionar_pergunta.png?raw=true "Adicionar Pergunta")
+![Alt text](/sprint/adicionar_pergunta_resposta.png?raw=true "Adicionar Pergunta")
 Tela Adicionar Equipe
 ![Alt text](/sprint/adicionar_equipe.png?raw=true "Adicionar Equipe")
